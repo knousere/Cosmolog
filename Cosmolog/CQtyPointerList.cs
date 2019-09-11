@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
-// (c)Richard E. Knouse 2015-1019
 
 namespace Cosmolog
 {

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-// (c)Richard E. Knouse 2015-1019
 
 // The list of quantities. There is only one master list in this project attached to the main form. 
 // Do not implement Sort because the index of each element must remain constant.

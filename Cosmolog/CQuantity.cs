@@ -1,5 +1,4 @@
 ﻿using System;
-// (c)Richard E. Knouse 2015-1019
 
 // this is an element of the list of quantities
 namespace Cosmolog

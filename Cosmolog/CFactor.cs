@@ -1,5 +1,4 @@
 ﻿using System;
-// (c)Richard E. Knouse 2015-1019
 
 // One term in a factor list of the form:
 // q^(p/r)
