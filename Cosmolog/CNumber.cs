@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+// (c)Richard E. Knouse 2015-1019
 
 
 // This is used by CQuantity to store current and candidate values.

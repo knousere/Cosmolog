@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+// (c)Richard E. Knouse 2015-1019
 
 namespace Cosmolog
 {

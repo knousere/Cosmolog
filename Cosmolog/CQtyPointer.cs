@@ -1,4 +1,5 @@
 ﻿using System;
+// (c)Richard E. Knouse 2015-1019
 
 // name/index pair that points to element of CQuantityList
 namespace Cosmolog

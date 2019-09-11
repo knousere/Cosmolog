@@ -1,4 +1,6 @@
-﻿// This class contains an integer ratio that represents a rational number
+﻿// (c)Richard E. Knouse 2015-1019
+
+// This class contains an integer ratio that represents a rational number
 // It is used in normalizing and simplifying expressions that contain integers
 namespace Cosmolog
 {
