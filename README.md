@@ -5,15 +5,15 @@ This is a Visual Studio 2017 C# solution.
 This tool was used to generate the physical quantities and list of formulas used in Orest Bedrij's three
 volume set: "'1' The Encyclopedia of Physical Laws." The entire list was marshalled through the MS Word
 libary to produce a series of MS Word files, ready for publication and mathematically guaranteed to be
-letter perfect.
+letter perfect. 
 
-The entire flow is controlled via the dialog form. This facilitates iteration of calculation, automatic
-generation of new formulas and quantities and the resolution and elimination of duplicates. The flow starts
-with reading of initialization files that include symbols and values. Any subset of the CODATA (Committee on
-Data for Science and Technology of the International Council for Science) standard can
-be used as a starting point. For practical purposes, a symbol has an ANSI form for internal manipulation and
-a Unicode form for external publication. This way the ToString() method of any class can be read in a
-dubugger. 
+The approach is to solve all the formulas as a simultaneous equation. The entire flow is controlled via
+the dialog form. This allows for stepwize iteration of calculation, automatic generation of new formulas
+and quantities and the resolution and elimination of duplicates. The flow starts with reading of
+initialization files that include symbols and values. Any subset of the CODATA (Committee on Data for
+Science and Technology of the International Council for Science) standard can be used as a starting point.
+For practical purposes, a symbol has an ANSI string for internal manipulation and a Unicode string for
+external publication. This way the ToString() method of any class can be read in a dubugger. 
 
 A single iteration recalculates the value of each quantity as an average of the computed values of each
 expression associated with that quantity. Each iteration extends the precision of each quantity so that
